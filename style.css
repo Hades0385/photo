@@ -63,7 +63,7 @@
  letter-spacing: 3px;
 }
 
-@media only screen and (max-width: 769px){
+@media screen and (max-width: 769px){
     .container .box{
    flex-direction: column;
   }
@@ -78,18 +78,22 @@
 
 }
 
-@media only screen and (max-width: 643px){
+@media screen and (max-width: 643px){
 .container .heading{
   width: 100%;
 }
 .container .heading h3{
-  font-size: 1em;
+  font-size: 2em;
 
 }
 
 
 
-
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{
+  left:-66px!important
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover
+{left:0!important}
 
 
 
