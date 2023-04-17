@@ -2,6 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('player'),
     lrcType: 1,
     listFolded: true,
+    fixed: true,
     audio: [
             {
                 name:'数センチメンタル(幾厘米)',
